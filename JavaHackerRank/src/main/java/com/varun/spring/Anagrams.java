@@ -11,6 +11,7 @@ public class Anagrams {
 		b = b.toLowerCase();
 		int[] a1 = new int[26];
 		int[] b1 = new int[26];
+		/* Store the frequencies in Arrays */
 		for (int i = 0; i < a.length(); i++) {
 			a1[(int) a.charAt(i) - 97]++;
 			b1[(int) b.charAt(i) - 97]++;
